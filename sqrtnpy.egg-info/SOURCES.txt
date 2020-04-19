@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+sqrtn/__init__.py
+sqrtn/sqrtn.py
+sqrtnpy.egg-info/PKG-INFO
+sqrtnpy.egg-info/SOURCES.txt
+sqrtnpy.egg-info/dependency_links.txt
+sqrtnpy.egg-info/top_level.txt
+src/_cfunct.c
+src/cfunct.c
