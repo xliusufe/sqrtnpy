@@ -20,7 +20,16 @@ A Python pacakge to calculate `sqrt(n)` with very high precision. "sqrtn"" imple
     from sqrtn import sqrtn
 
     fit = sqrtn(2, 100)
-    
+    print(fit)
+
+
+# Example 2
+
+    import sqrtn
+
+    fit = sqrtn.sqrtn(2, 100)
+    print(fit)
+
 
 # Development
 This Python package is developed by Xu Liu (liu.xu@sufe.edu.cn).
