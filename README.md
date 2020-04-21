@@ -1,4 +1,4 @@
-# sqrtnpy
+# sqrtn
 A Python pacakge to calculate `sqrt(n)` with very high precision. "sqrtn"" implements dramatically fast. It takes only less than 30 seconds to approximate square root of 2 with `100,000` digits. Function `sqrtn2()` can approximate square root of `n` for any positive integer. The last two or three digits may be incorrect. For seek of safety, it is better to input two or three more to guarantee precision.
 
 # Installation
@@ -13,7 +13,7 @@ A Python pacakge to calculate `sqrt(n)` with very high precision. "sqrtn"" imple
 
     - Output: the square root of `n`, which is a string.
 
-- An R package named [sqrtn](https://github.com/xliusufe/sqrtn/) can be found on github.
+- The corresponding R package named [sqrtn](https://github.com/xliusufe/sqrtn/) can be found on github.
    
 # Example 1
 

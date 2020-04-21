@@ -1,4 +1,4 @@
-from ._sqrtnpy import CSQUARE_ROOT_N_
+from ._SQRTNPY import CSQUARE_ROOT_N_
 import math
 
 

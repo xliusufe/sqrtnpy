@@ -2,7 +2,7 @@ from setuptools import setup, Extension, find_packages
 import numpy
 
 VERSION = '1.0'
-extensions = Extension(name = 'sqrtn._sqrtnpy',  # name of our extension module
+extensions = Extension(name = 'sqrtn._SQRTNPY',  # name of our extension module
                         sources = ['src/cfunct.c', 'src/_cfunct.c'],
                         include_dirs = ['src'],
                         language='c' 
@@ -10,7 +10,7 @@ extensions = Extension(name = 'sqrtn._sqrtnpy',  # name of our extension module
 
 
 setup(
-    name='sqrtnpy', # A name show on Pypi.
+    name='sqrtn', # A name show on Pypi.
     version=VERSION, 
     packages = ['sqrtn'],
     ext_modules = [extensions],
