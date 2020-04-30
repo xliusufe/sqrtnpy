@@ -25,7 +25,7 @@ static PyObject *py_CSQUARE_ROOT_N_(PyObject *self, PyObject *args) {
 
     npy_intp dims[1] = {1};
     PyObject *ret = PyArray_New(&PyArray_Type, 1, dims, NPY_STRING, NULL, sqrtn_s, (int)strlen(sqrtn_s), NPY_ARRAY_OWNDATA, NULL);
-
+    free(sqrtn_s);
     return ret;
 }
 
